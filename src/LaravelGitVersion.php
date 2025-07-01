@@ -73,6 +73,7 @@ class LaravelGitVersion {
     {
         return [
             'version' => self::getCurrentGitCommitHash(),
+            'short_hash' => substr(self::getCurrentGitCommitHash() ?? '', 0, 8),
             'repo' => self::getGitUrl(),
             'commit_url' => self::getCurrentCommitUrl(),
         ];
