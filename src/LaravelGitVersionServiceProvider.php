@@ -4,7 +4,6 @@ namespace ConnorHowell\LaravelGitVersion;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ConnorHowell\LaravelGitVersion\Commands\LaravelGitVersionCommand;
 
 class LaravelGitVersionServiceProvider extends PackageServiceProvider
 {
